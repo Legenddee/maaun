@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    font-family: arial;
+    overflow-x: hidden;
+}
+/* ===========BG-IMAGE-SECTION========= */
+#About-img-bg{
+    background-image:linear-gradient(360deg,rgba(14, 2, 67, 0.181),
+    rgba(2, 15, 58, 0.525)),url(./images/testimonials-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: solid #004682 2px;
+    height: 60vh;
+    margin-top: 10vh;
+    padding-top: 10%;
+    text-align: center;
+    width: 100vw;
+}
+#welcome-title{
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 5px 3px 0px #011132;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.text{
+    color:#004682;
+    font-family: Impact;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    margin: 0; 
+    position: relative;
+}
+/* =============Departments-Doc============ */
+#departments-doc h2{
+    text-align: center;
+    font-weight: bolder;
+}
+.departments-doc-cards{
+    background-color: #fff;
+    width: 500px;
+    height: 200px;
+    box-shadow: 0px 1px 3px 1px #011132;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.departments-doc-img{
+    background-color: #004682;
+    border-radius: 10px;
+    width: 40%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.departments-doc-img p{
+    line-height: 200px;
+}
+.departments-doc-text{
+    float: right;
+    text-align: center;
+    width: 60%;
+}
+.departments-doc-text h3{
+    color: #004682;
+    font-family: impact;
+    font-size: xx-large;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+.departments-doc-btn{
+    border: solid #004682 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:Tahoma;
+    letter-spacing: 1px;
+    font-size: large;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.departments-doc-btn:hover{
+    background-color: #004682;
+    color: #fff;
+    transition: 300ms ease-out;
+    -webkit-transition: 300ms ease-out;
+    -moz-transition: 300ms ease-out;
+    -ms-transition: 300ms ease-out;
+    -o-transition: 300ms ease-out;
+}
+
+/* =================MEDIUM DEVICES================ */
+@media only screen and (max-width:996px){
+    /* ============== Background Caption ========= */
+    #About-img-bg{
+        padding-top: 20%;
+        text-align: center;
+        width: 100vw;
+    }
+    #welcome-title{
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+    .text{
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        margin: 0; 
+    }
+}
+
+
+/* =============SMALL DEVICES============ */
+@media only screen and (max-width:548px){
+    /* ============== Background Caption ========= */
+    #About-img-bg{
+        padding-top: 30%;
+        text-align: center;
+        width: 100vw;
+    }
+    #welcome-title{
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+    }
+    .text{
+        font-size: 40px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin: 0; 
+    }
+    /* =============Departments-Doc============ */
+    #departments-doc h2{
+        text-align: center;
+        font-weight: bolder;
+    }
+    .departments-doc-cards{
+        width: 390px;
+        height: 150px;
+    }
+    .departments-doc-img{
+        background-color: #004682;
+        border-radius: 10px;
+        width: 35%;
+        height: 100%;
+        float: left;
+        text-align: center;
+    }
+    .departments-doc-img p{
+        line-height: 150px;
+    }
+    .departments-doc-text{
+        width: 60%;
+    }
+    .departments-doc-text h3{
+        margin-top: 5%;
+        margin-bottom: 10px;
+    }
+    .departments-doc-btn{
+        border: solid #004682 2px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-family:Tahoma;
+        letter-spacing: 1px;
+        font-size: large;
+        color: #000;
+        text-decoration: none;
+        margin-right: 10px;
+        padding: 10px 25px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .departments-doc-btn:hover{
+        background-color: #004682;
+        color: #fff;
+        transition: 300ms ease-out;
+        -webkit-transition: 300ms ease-out;
+        -moz-transition: 300ms ease-out;
+        -ms-transition: 300ms ease-out;
+        -o-transition: 300ms ease-out;
+    }
+    
+}
