@@ -507,33 +507,33 @@ td{
 @media only screen and (max-width:720px){
     /* ===========IMAGE COVER START============= */
     .image-bg{
-        margin-top: 5vh;
-        padding-top: 50%;
+        margin-top: 4vh;
+        padding-top: 40%;
         padding-left: 20px;
         padding-right: 20px;
     }
     .wave{
-        margin-top: -30%;
+        margin-top: -35%;
     }
     #welcome-title{
-        box-shadow: 0 3px 1px 3px #004682;
+        box-shadow: 0 1px 1px 2px #0d0d0d;
     }
     .text{
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
         letter-spacing: 2px;
         margin: 0; 
     }
     #school-name{
         color: #000;
-        font-weight: bolder;
+        font-weight: bold;
     }
     .sec-h2{
-        font-size: 30px;
+        font-size: 25px;
     }
     .abouth2 p{
         color: #004682;
-        font-size: larger;
+        font-size: 16px;
         font-weight: 400;
         font-family: arial;
     }
@@ -547,25 +547,27 @@ td{
         margin-bottom: 0px;
     }
     .content h3{
-        box-shadow: 0px 3px 1px 0px #E6022D;
+        box-shadow: 0px 3px 1px 0px #004682;
         border-radius: 5px;
-        background-color: #004682;
-        color: #f8f7f7;
-        font-weight: bold;
+        background-color: #fff;
+        color: #004682;
+        letter-spacing: 1px;
+        font-family: impact;
     }
     .content h4{
         font-family: Verdana;
-        font-weight: bolder;
+        font-weight: bold;
     }
     .content p{
-        font-size:large;
+        font-size:16px;
     }
     /* -----------PROGRAMS SECTION------------ */
     .programs-cards{
         align-items: center;
-        width: 400px;
-        height: 140px;
-        margin-left: -15px;
+        width: 320px;
+        height: 120px;
+        margin-left: -10px;
+        padding-bottom: 10px;
         
     }
     .programs-img{
@@ -573,38 +575,38 @@ td{
         float: left;
     }
     .programs-img img{
-        width: 91%;
+        width: 97%;
     }
     .programs-text{
         text-align: center;
     }
     .programs-text h3{
-        margin-top: 5%;
+        margin-top: 3%;
     }
     .programs-text h3 span{
-        font-size: x-large;
+        font-size: large;
     }
     /* =========Departmental Section========== */
     #level-container ul{
-        width: 390px;
+        width: 350px;
         margin-left: auto;
         margin-right: auto;
         text-align: left;
     }
     #level-container ul li a #CE{
-        margin-left: 20px;
+        margin-left: -10px;
     }
     #level-container ul li a #CS{
-        margin-left: 70px;
+        margin-left: 0px;
     }
     #level-container ul li a #SE{
-        margin-left: 23px;
+        margin-left: -10px;
     }
     #level-container ul li a #CYS{
-        margin-left: 100px;
+        margin-left: 0px;
     }
     #level-container ul li a #IT{
-        margin-left: 3px;
+        display: none;
     }
     .card-Comment p{
         font-size: 17px;
