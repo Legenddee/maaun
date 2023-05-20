@@ -33,8 +33,8 @@ a svg:hover{
     text-align: center;
 }
 .image-bg{
-    background-image:linear-gradient(360deg,rgba(13, 4, 55, 0.569),
-    rgba(1, 5, 18, 0.694)),url(./Images/image_1.jpg);
+    background-image:linear-gradient(360deg,rgba(13, 4, 55, 0.116),
+    rgba(1, 9, 34, 0.201)),url(./Images/image_1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -504,7 +504,7 @@ td{
 }
 
 /* ===========SMALL DEVICES======== */
-@media only screen and (max-width:548px){
+@media only screen and (max-width:720px){
     /* ===========IMAGE COVER START============= */
     .image-bg{
         margin-top: 5vh;
