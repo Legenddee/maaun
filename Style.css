@@ -5,14 +5,13 @@
 body{
     font-size: 16px;
     font-family: arial;
-    /* margin-right: -20px; */
     overflow-x: hidden;
 }
 a svg:hover{
     color: #E6022D;
 }
 .modal-body input{
-    font-weight: 500;
+    font-weight: 500px;
     border:solid #004682 2px;
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -267,7 +266,7 @@ td{
 #Comments{
     color: #000;
     background-image:linear-gradient(360deg,rgba(14, 2, 67, 0.852),
-    rgba(2, 15, 58, 0.694)),url(./images/bg_1.jpg);
+    rgba(2, 15, 58, 0.694)),url(./Images/bg_1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -301,7 +300,7 @@ td{
     color: #fff;
     font-weight: bold;
     margin-top: -15px;
-    margin-bottom: -3px;
+    margin-bottom: 3px;
     text-align: center;
 }
 #blog-title h6{
@@ -506,17 +505,21 @@ td{
 /* ===========SMALL DEVICES======== */
 @media only screen and (max-width:720px){
     /* ===========IMAGE COVER START============= */
+    .abouth2{
+        margin-top: -400px;
+    }
     .image-bg{
-        margin-top: 4vh;
+        height: 50vh;
+        margin-top: 2vh;
         padding-top: 40%;
         padding-left: 20px;
         padding-right: 20px;
     }
     .wave{
-        margin-top: -35%;
+        margin-top: -25%;
     }
     #welcome-title{
-        box-shadow: 0 1px 1px 2px #0d0d0d;
+        box-shadow: 0 1px 1px 2px #004682;
     }
     .text{
         font-size: 25px;
@@ -530,6 +533,7 @@ td{
     }
     .sec-h2{
         font-size: 25px;
+        padding-top: 0px;
     }
     .abouth2 p{
         color: #004682;
@@ -564,8 +568,8 @@ td{
     /* -----------PROGRAMS SECTION------------ */
     .programs-cards{
         align-items: center;
-        width: 320px;
-        height: 120px;
+        width: 340px;
+        height: 126px;
         margin-left: -10px;
         padding-bottom: 10px;
         
@@ -581,37 +585,42 @@ td{
         text-align: center;
     }
     .programs-text h3{
+        font-weight: 400;
         margin-top: 3%;
     }
     .programs-text h3 span{
-        font-size: large;
+        font-weight: 400;
+        font-size:18px;
     }
     /* =========Departmental Section========== */
     #level-container ul{
-        width: 350px;
+        width: 340px;
         margin-left: auto;
         margin-right: auto;
         text-align: left;
     }
+    #level-container ul li a{
+        font-weight: bolder;
+    }
     #level-container ul li a #CE{
-        margin-left: -10px;
+        display: none;
     }
     #level-container ul li a #CS{
-        margin-left: 0px;
+        display: none;
     }
     #level-container ul li a #SE{
-        margin-left: -10px;
+        display: none;
     }
     #level-container ul li a #CYS{
-        margin-left: 0px;
+        display: none;
     }
     #level-container ul li a #IT{
         display: none;
     }
     .card-Comment p{
-        font-size: 17px;
+        font-size: 16px;
         font-family: arial;
-        width: 80%;
+        width: 85%;
     }
     .card-Comment p svg{
         width: 25px;
