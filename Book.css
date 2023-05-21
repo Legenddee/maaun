@@ -10,7 +10,7 @@ body{
 /* ===========BG-IMAGE-SECTION========= */
 #About-img-bg{
     background-image:linear-gradient(360deg,rgba(14, 2, 67, 0.181),
-    rgba(2, 15, 58, 0.525)),url(./images/testimonials-bg.jpg);
+    rgba(2, 15, 58, 0.525)),url(./Images/testimonials-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -139,23 +139,22 @@ body{
 
 
 /* =============SMALL DEVICES============ */
-@media only screen and (max-width:548px){
+@media only screen and (max-width:720px){
     /* ============== Background Caption ========= */
     #About-img-bg{
         padding-top: 30%;
         text-align: center;
-        width: 100vw;
+        width: 100%;
     }
     #welcome-title{
         margin-left: auto;
         margin-right: auto;
-        width: 400px;
+        width: 350px;
     }
     .text{
         font-size: 40px;
         font-weight: bold;
         letter-spacing: 2px;
-        margin: 0; 
     }
     /* =============Departments-Doc============ */
     #departments-doc h2{
@@ -163,13 +162,13 @@ body{
         font-weight: bolder;
     }
     .departments-doc-cards{
-        width: 390px;
+        width: 360px;
         height: 150px;
     }
     .departments-doc-img{
         background-color: #004682;
         border-radius: 10px;
-        width: 35%;
+        width: 40%;
         height: 100%;
         float: left;
         text-align: center;
@@ -189,12 +188,11 @@ body{
         border-radius: 5px;
         font-weight: bold;
         font-family:Tahoma;
-        letter-spacing: 1px;
         font-size: large;
         color: #000;
         text-decoration: none;
-        margin-right: 10px;
-        padding: 10px 25px;
+        margin-right: 5px;
+        padding: 10px 5px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         -ms-border-radius: 5px;
@@ -209,5 +207,7 @@ body{
         -ms-transition: 300ms ease-out;
         -o-transition: 300ms ease-out;
     }
-    
+    footer{
+        overflow-x: hidden;
+    }
 }
