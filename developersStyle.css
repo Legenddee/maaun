@@ -10,6 +10,18 @@
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+#dev-card-01 img:hover{
+    transition: 500ms;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+}
 #developer-content{
     box-shadow: 0px 2px 3px 0px #0e0101;
     border-radius: 5px;
@@ -29,9 +41,9 @@
     font-weight: bolder;
 }
 #dev-card-01 .developer-name{
-    border-top: solid #004682 5px;
-    border-right: solid #004682 10px;
-    border-bottom: solid #000 2px;
+    border-top: solid #f2f5f7 5px;
+    border-right: solid #004682 5px;
+    border-bottom: solid #004682 5px;
     background-color: #f2f5f7;
     border-radius: 5px;
     padding-left: 10px;
@@ -43,13 +55,12 @@
 }
 #dev-card-01 .developer-name h2{
     color: #004682;
-    font-size: 40px;
-    font-family: Impact;
-    font-weight: bold;
-    letter-spacing: 1px;
+    font-size: 35px;
+    font-family: impact;
+    font-weight: 500;
+    letter-spacing: 2px;
     margin-top: 5px;
     text-transform: uppercase;
-    /* text-shadow: 2px #000; */
 }
 #dev-card-01 .developer-name h4{
     font-family: 'Franklin Gothic Medium';
@@ -126,4 +137,112 @@
     text-align: center;
     text-decoration: underline;
     text-transform: uppercase;
+}
+/* =======CONTRIBUTORS SECTION======== */
+.contributors-card{
+    background-color: #004682;
+    border: solid #004682 2px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px 0px #0e0101;
+    color: #fff;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 70px;
+    padding: 10px;
+}
+.contributors-card:hover{
+    transition: 400ms ease-out;
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+    -webkit-transition: 400ms ease-out;
+    -moz-transition: 400ms ease-out;
+    -ms-transition: 400ms ease-out;
+    -o-transition: 400ms ease-out;
+}
+.contributors-card .img{
+    border: solid #fff 5px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.contributors-card .img01{
+    background-image: url(./Images/auth.jpg);
+}
+.contributors-card .img02{
+    background-image: url(./Images/about.JPG);
+}
+.contributors-card .img03{
+    background-image: url(./Images/auth.jpg);
+}
+.contributors-card .img04{
+    background-image: url(./Images/about.JPG);
+}
+.dev-about h4{
+    background-color: #fff;
+    color: #004682;
+    font-family: franklin;
+    text-align: center;
+}
+.dev-about p{
+    height: 90px;
+    overflow-y: hidden;
+}
+.dev-about a{
+    color: #004682;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:720px){
+    #dev-card-01{
+        padding-top: 12vh;
+    }
+    #dev-card-01 .developer-name{
+        border-top: solid #004682 5px;
+        border-right: solid #004682 5px;
+        border-bottom: solid #004682 5px;
+        background-color: #f2f5f7;
+    }
+    #dev-card-01 .developer-name h2{
+        font-size: 30px;
+    }
+    #dev-card-01 .developer-name h4{
+        margin-top: -10px;
+    }
+    #dev-card-01 .developer-name h5{
+        margin-top: -10px;
+    }
+    #developer-social-media{
+        width: 48%;
+    }
+    #developer-social-media ul{
+        list-style: none;
+    }
+    #developer-social-media ul li{
+        margin-left: -20px;
+        margin-bottom: 10px;
+    }
+    #developer-social-media ul li a{
+        font-size: 16px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .dev-about p{
+        height: auto;
+    }
 }

@@ -132,20 +132,28 @@
 
 }
 /* ====SMALL DEVICES======= */
-@media only screen and (max-width:548px){
+@media only screen and (max-width:720px){
     /* -----Footer section----- */
+    .GALLERY{
+        margin-left: 30px;
+    }
     .GALLERY img{
-        width: 5rem;
-        height: 5rem;
+        width: 4rem;
+        height: 4rem;
+    }
+    .well .row{
+        max-width: 350px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        box-shadow: 0 0px 1px 1px #4b4a4a;
     }
     #newsInput{
-        margin-left: 10px;
-        width: 300px;
+        margin-left:0px;
+        width: 250px;
     }
     .New-button{
-        margin-top: -66px;
-        margin-left: 230px;
-        margin-right: -10px;
+        margin-top: -63px;
+        margin-left: 220px;
         width: 90px;
     }
 }

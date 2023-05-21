@@ -9,7 +9,7 @@ body{
 }
 #level-container{
     margin-top: 12vh;
-    width: 100vw;
+    width: 100%;
     height: 85vh;
     padding-top: 20px;
     text-align: center;
@@ -50,15 +50,37 @@ body{
 #level-container ul li a:hover{
     background-color: #004682;
     color: #fff;
-    transition: 300ms ease-out;
-    -webkit-transition: 300ms ease-out;
-    -moz-transition: 300ms ease-out;
-    -ms-transition: 300ms ease-out;
-    -o-transition: 300ms ease-out;
+    transition: 200ms ease-out;
+    -webkit-transition: 200ms ease-out;
+    -moz-transition: 200ms ease-out;
+    -ms-transition: 200ms ease-out;
+    -o-transition: 200ms ease-out;
     transform: translateX(-10px);
     -webkit-transform: translateX(-10px);
     -moz-transform: translateX(-10px);
     -ms-transform: translateX(-10px);
     -o-transform: translateX(-10px);
 }
+@media only screen and (max-width:720px){
+    #level-container ul{
+        width: 350px;
+        height: 90vh;
+    }
+    #level-container ul li{
+        list-style: none;
+    }
+    #level-container ul li a{
+        font-size: large;
+        letter-spacing: 1px;
+        font-family: impact;
+        text-decoration: none;
+        margin-left: -30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+    }
+    #level-container ul li a svg{
+        margin-left: -300px;
+    }
 
+}
